@@ -14,4 +14,6 @@ pkg update -y && pkg upgrade -y
 
 clear
 
-exit
+bash installGPUAndroid.sh
+
+bash installxmrigminecpu-gpu.sh
