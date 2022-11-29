@@ -1,0 +1,17 @@
+#!
+
+curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
+
+bash setup-pointless-repo.sh
+
+clear
+
+apt update -y && apt upgrade -y
+
+clear
+
+pkg update -y && pkg upgrade -y
+
+clear
+
+exit
