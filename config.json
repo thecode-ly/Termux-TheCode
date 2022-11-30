@@ -1,0 +1,219 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "light",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": false,
+        "cache_qos": false,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "yield": true,
+        "argon2-impl": null,
+        "argon2": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn-heavy": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn-lite": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn-pico": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn/upx2": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "ghostrider": [
+            [8, -1],
+            [8, -1],
+            [8, -1],
+            [8, -1],
+            [8, -1],
+            [8, -1],
+            [8, -1],
+            [8, -1]
+        ],
+        "rx": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "rx/wow": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow",
+        "rx/keva": "rx/wow"
+    },
+    "opencl": {
+        "enabled": true,
+        "cache": true,
+        "loader": "/system/vendor/lib64/libOpenCL.so",
+        "platform": "ARM",
+        "cn": [
+            {
+                "index": 0,
+                "intensity": 1000,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "cn-heavy": [
+            {
+                "index": 0,
+                "intensity": 600,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "cn-lite": [
+            {
+                "index": 0,
+                "intensity": 2000,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "cn-pico": [
+            {
+                "index": 0,
+                "intensity": 2000,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "cn/2": [
+            {
+                "index": 0,
+                "intensity": 1000,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "cn/upx2": [
+            {
+                "index": 0,
+                "intensity": 256,
+                "worksize": 8,
+                "strided_index": [0, 2],
+                "threads": [-1],
+                "unroll": 8
+            }
+        ],
+        "kawpow": [
+            {
+                "index": 0,
+                "intensity": 262144,
+                "worksize": 256,
+                "threads": [-1],
+                "unroll": 1
+            }
+        ],
+        "rx": [
+            {
+                "index": 0,
+                "intensity": 576,
+                "worksize": 8,
+                "threads": [-1],
+                "bfactor": 6,
+                "gcn_asm": false,
+                "dataset_host": true
+            }
+        ],
+        "rx/arq": [
+            {
+                "index": 0,
+                "intensity": 4480,
+                "worksize": 8,
+                "threads": [-1],
+                "bfactor": 6,
+                "gcn_asm": false,
+                "dataset_host": true
+            }
+        ],
+        "rx/wow": [
+            {
+                "index": 0,
+                "intensity": 1216,
+                "worksize": 8,
+                "threads": [-1],
+                "bfactor": 6,
+                "gcn_asm": false,
+                "dataset_host": true
+            }
+        ],
+        "cn-lite/0": false,
+        "cn/0": false
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
+    "log-file": null,
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": "cn/upx2",
+            "coin": null,
+            "url": "stratum+tcp://fastpool.xyz:10152",
+            "user": "UPi1N2zx8FfHpfJuJ5d8zP767uWqakcaLEgSwDALF5ELh3JcwAXQ3B5DenGnEger4s6pNK3gAe7sD1WNmkPCXvQQFDPW9mVzRCm1wWvsXRuL5.500",
+            "pass": "pw",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "health-print-time": 60,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
